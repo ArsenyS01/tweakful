@@ -1,0 +1,68 @@
+h1, h2, h3, h4 {
+  font-weight: 700;
+}
+
+h5, h6 {
+  font-weight: 600;
+}
+
+.line {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.line .el {
+  border: none;
+  border-radius: 50%;
+  background: white;
+  width: 7px;
+  height: 7px;
+  margin: 0 10px;
+  position: relative;
+  cursor: pointer;
+}
+.line .el.el_active {
+  background: green;
+}
+.line.icons i {
+  color: white;
+  background: #2c3b42;
+  font-size: 17px;
+  padding: 7px;
+  border: none;
+  border-radius: 50%;
+  min-width: 32px;
+  min-height: 32px;
+  margin-left: 12px;
+  transition: 0.3s;
+}
+.line.icons i:hover {
+  background: green;
+}
+
+.w7 {
+  font-weight: 700;
+}
+
+.left {
+  text-align: left;
+}
+.left h1, .left h3, .left h4, .left h5, .left h6, .left p, .left span {
+  text-align: left;
+}
+
+.mc {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+}
+
+.df {
+  display: flex;
+}
+
+.cd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
